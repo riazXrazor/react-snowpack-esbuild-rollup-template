@@ -1,6 +1,6 @@
 # react-snowpack-esbuild-rollup-template
 
-> ✨ react project template with snowpackes esbuild and rollup 
+> ✨ react project template with snowpack esbuild and rollup 
 
 ## Available Scripts
 ### npm start
