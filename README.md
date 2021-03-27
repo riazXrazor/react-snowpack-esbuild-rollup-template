@@ -1,23 +1,25 @@
-# New Project
+# react-snowpack-esbuild-rollup-template
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+> ✨ react project template with snowpackes esbuild or rollup 
 
 ## Available Scripts
-
 ### npm start
 
-Runs the app in the development mode.
+Runs the app in the development mode with `snowpack`.
 Open http://localhost:8080 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### npm run build
+### npm run bundle
 
-Builds a static copy of your site to the `build/` folder.
+Builds a static copy of your site to the `esbuild-bundle/` folder with `esbuild`.
 Your app is ready to be deployed!
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
+### npm run bundle:r
+
+Builds a static copy of your site to the `rollup-bundle/` folder with `rollup`.
+Your app is ready to be deployed!
 
 ### Q: What about Eject?
 
